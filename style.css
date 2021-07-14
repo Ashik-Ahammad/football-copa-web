@@ -67,8 +67,8 @@ nav a{
 
 .watch-style:hover{
     background-color: transparent;
-    color: lightsalmon;
-    border: 3px solid navy;
+    color: whitesmoke;
+    border: 3px solid white;
 
 }
 
@@ -82,5 +82,104 @@ nav a{
 Footballers BioData Starts
 --------------------- */
 
+.footballers-part{
+    background-color: #FFFFFF;
+    padding-top: 70px;
+    margin-left: 400px;
+    width: 1000px;
+
+}
+
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 37px;
+    grid-column-gap: 30px;
+    
+}
+
+.player-card{
+    width: 330px;
+    height: 474px;
+    box-shadow:0px 0px 40px grey;
+    border-radius: 2px;
+}
+
+.player-card img{
+    width: 300px;
+    height: 256px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.player-card p{
+    color:#6C6C6C ;
+}
+
+.player-card h2, p{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+/* Highlights part */
+
+.highlighted{
+    margin-top:200px ;
+    margin-left: 400px;
+}
+
+.manage-width{
+    display: flex;
+    width: 50%;
+    
+}
+
+#title2-design{
+    color: #0A0826;
+    font-size: 64px;
+    width: 513px;
+    height: 250px;
+    
+}
 
 
+.highlight-style{
+    color:white;
+    background-color: darkslategray;
+    text-decoration: none;
+    padding: 10px 24px;
+}
+
+.highlight-pic{
+    width: 567px;
+    height: 427px;
+    
+}
+
+/* --------------
+Footer starts here
+ ---------------- */
+
+ .logo-decor{
+     display: flex;
+     justify-content: center;
+     width: 484px;
+     height: 110px;
+     margin-left: 700px;
+     margin-top: 152px;
+ }
+
+ .social-icons{
+    margin-left: 900px;
+ }
+
+.social-icons a{
+    padding: 5px;
+    font-size: 1.3em;
+}
+
+.copyright{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
