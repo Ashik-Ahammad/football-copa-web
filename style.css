@@ -51,6 +51,13 @@ nav a{
 
 }
 
+.half-width-img{
+    display: flex;
+    width: 50%;
+    padding-left: 280px;
+
+}
+
 .watch-style{
     color: #FFFFFF;
     background-color: #E02C6D;
@@ -176,6 +183,10 @@ table, thead, tr, td, th{
     
 }
 
+tbody{
+    text-align: center;
+}
+
 .ranking-link{
     text-decoration: none;
 }
@@ -242,12 +253,24 @@ Responsive Design Here
 /* For Mobile */
 
 @media only screen and (max-width:688px) {
-    body{
-        overflow-x: hidden;
+
+    .nav-first-style{
+        height: 800px;
+        
     }
 
-    .my-menu{
-        width: 100%;       
+    .half-width{
+        display: flex;
+        justify-content: center;
+    }
+
+    #title-design{
+        font-size: 40px;
+        margin-left: 60px;
+    }
+
+    .watch-style{
+        margin-left: 45px;
     }
 
     nav a{
@@ -273,11 +296,22 @@ Responsive Design Here
 
     }
 
+    .manage-width{
+        display: flex;
+        justify-content: center;
+    }
+
     table{
         width: 400px;
         height: 400px;
+        align-items: flex-end;
         
     }
+
+    .my-table{
+        background-color: white;
+    }
+
 
     .partners{
         display: flex;
@@ -289,8 +323,6 @@ Responsive Design Here
         display: flex;
         width: 300px;
         margin-left:0px;
-        
-
     }
 
     .social-icons{
@@ -303,5 +335,13 @@ Responsive Design Here
         margin-left:10px;
     }
 
+    #title2-design{ 
+        font-size: 12px;
+        
+    }
 
-}
+    body{
+        overflow-x: hidden;
+        
+    }
+
