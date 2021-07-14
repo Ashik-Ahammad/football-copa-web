@@ -12,19 +12,13 @@ nav{
     margin-left: 10px; 
 }
 
-nav > span > a:hover{
-    background-color: whitesmoke;
-    color: indigo;
-    padding: 10px;
-    
-}
-
 nav a{
-    margin: 0px 36px;
+    margin: 0px 32px;
     text-decoration: none;
     color: #FFFFFF;
     
 }
+
 
 .nav-first-style{
     background-color: #2D25A0;
@@ -69,13 +63,12 @@ nav a{
     background-color: transparent;
     color: whitesmoke;
     border: 3px solid white;
-
 }
 
 
 #watch-style-move:hover{
-    transform: scale(0.99);
-        
+    transform: scale(1);
+  
 }
 
 /* ------------------ 
@@ -147,7 +140,8 @@ Footballers BioData Starts
     color:white;
     background-color: darkslategray;
     text-decoration: none;
-    padding: 10px 24px;
+    padding: 15px;
+    
 }
 
 .highlight-pic{
@@ -156,33 +150,6 @@ Footballers BioData Starts
     
 }
 
-/* --------------
-Footer starts here
- ---------------- */
-
- .logo-decor{
-     display: flex;
-     justify-content: center;
-     width: 484px;
-     height: 110px;
-     margin-left: 700px;
-     margin-top: 152px;
- }
-
- .social-icons{
-    margin-left: 900px;
- }
-
-.social-icons a{
-    padding: 5px;
-    font-size: 1.3em;
-}
-
-.copyright{
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-}
 
 /* Ranking Table Starts here */
 
@@ -233,4 +200,108 @@ h2{
 
 .space-bet{
     padding: 50px;
+}
+
+
+
+/* --------------
+Footer starts here
+ ---------------- */
+
+ .logo-decor{
+     display: flex;
+     justify-content: center;
+     width: 484px;
+     height: 110px;
+     margin-left: 700px;
+     margin-top: 152px;
+ }
+
+ .social-icons{
+    margin-left: 900px;
+ }
+
+.social-icons a{
+    padding: 5px;
+    font-size: 1.3em;
+}
+
+.copyright{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 63px;
+}
+
+
+
+/* -------------------
+Responsive Design Here
+---------------------- */
+
+/* For Mobile */
+
+@media only screen and (max-width:688px) {
+    body{
+        overflow-x: hidden;
+    }
+
+    .my-menu{
+        width: 100%;       
+    }
+
+    nav a{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .players{
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footballers-part{
+        margin-left: 22.5px;
+    }
+
+    .my-table{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+    }
+
+    table{
+        width: 400px;
+        height: 400px;
+        
+    }
+
+    .partners{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo-decor{
+        display: flex;
+        width: 300px;
+        margin-left:0px;
+        
+
+    }
+
+    .social-icons{
+        margin-left: 125px;
+    }
+
+    .copyright{
+        display: flex;
+        width: 100%;
+        margin-left:10px;
+    }
+
+
 }
